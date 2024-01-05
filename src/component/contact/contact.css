@@ -1,0 +1,102 @@
+.contact {
+  background-image: url(./image2.jpg);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  color: white;
+}
+.contact > h2 {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: white;
+  font-weight: 600;
+  text-shadow: 3px 4px 7px #000;
+  font-size: 3rem;
+}
+label {
+  color: rgb(255, 255, 255) !important;
+}
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+  color: white !important;
+}
+.css-1sqnrkk-MuiInputBase-input-MuiOutlinedInput-input {
+  color: white !important;
+}
+.css-1jy569b-MuiFormLabel-root-MuiInputLabel-root {
+  color: rgb(0 0 0) !important;
+}
+
+.formclass {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  margin: 4rem auto;
+  width: 50%;
+  gap: 10px;
+  border: 2px solid black;
+  border-radius: 0.6rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  backdrop-filter: blur(20px);
+  /* background: rgb(255 255 255 / 20%); */
+}
+.buttonSubmit {
+  width: 7rem;
+  margin-bottom: 3rem !important;
+}
+.faceimage {
+  width: 6rem;
+  position: absolute;
+  top: -4rem;
+  border-radius: 4rem;
+  border: 1px solid black;
+  right: -4rem;
+}
+@media screen and (max-width: 1024px) {
+  .formclass {
+    width: 70%;
+    margin-top: 4rem;
+  }
+}
+@media screen and (max-width: 630px) {
+    .faceimage {
+        width: 6rem;
+        position: absolute;
+        top: -4rem;
+        border-radius: 4rem;
+        right: -3rem;
+        z-index: 1;
+      }
+}
+
+@media screen and (max-width: 700px) {
+  .formclass {
+    width: 80%;
+    margin-top: 4rem;
+  }
+}
+@media screen and (max-width: 500px) {
+    .faceimage {
+        width: 6rem;
+        position: absolute;
+        top: -4rem;
+        border-radius: 4rem;
+        right: -2rem;
+        z-index: 1;
+      }
+}
+@media screen and (max-width: 400px) {
+  .formclass {
+    width: 90%;
+    margin-top: 5rem;
+  }
+  .faceimage {
+    width: 6rem;
+    position: absolute;
+    top: -5rem;
+    border-radius: 4rem;
+    right: -1rem;
+    z-index: 1;
+  }
+}
